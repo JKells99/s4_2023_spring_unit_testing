@@ -11,7 +11,7 @@ public class CourseAdminTest {
         Student student = new Student();
 
         student.setId(1);
-        student.setName("Jordan");
+        student.setName("Jordaw");
 
         Course course = new Course();
 
