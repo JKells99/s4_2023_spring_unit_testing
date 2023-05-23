@@ -49,7 +49,7 @@ public class CourseAdminTest {
         Course course = new Course();
 
         course.setId(1);
-        course.setName("SWDAT");
+        course.setName("JavaScript");
 
         courseAdmin.addCourseToStudent(student,course);
 
