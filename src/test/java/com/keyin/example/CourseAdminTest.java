@@ -1,17 +1,19 @@
 package com.keyin.example;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class CourseAdminTest {
     @Test
+    @DisplayName("Test Course List")
     public void testGetCourseListByStudent(){
         CourseAdmin courseAdmin = new CourseAdmin();
 
         Student student = new Student();
 
         student.setId(1);
-        student.setName("Jordaw");
+        student.setName("Jordan");
 
         Course course = new Course();
 
